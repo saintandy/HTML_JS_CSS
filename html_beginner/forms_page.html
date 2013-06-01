@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Web Page</title>
+	</head>
+	<body>
+		
+		<h1> My page </h1>
+		
+		<script>
+			function showInfo() {
+				document.write(
+				"Your name is " + document.getElementById('user').value + "\n" + 
+				"Your password is " + document.getElementById('pass').value + '\n' + 
+				"Your gender is " + document.getElementById('gender').value + '\n' + 
+				"Your hobbyes are " + document.getElementById('aboutme').value + '\n');
+			}
+		</script>
+		
+		<form action = 'links_page.html' method = 'post'>
+			<p> Username: <input type = 'text' name = 'user' id = 'user'> </p>
+			<p> Password: <input type = 'password' name = 'pass' id = 'pass'> </p>
+			<p>
+				<select name = 'gender' id = 'gender'>
+					<option> Female </option>
+					<option> Male </option>
+					<option> Other </option>
+				</select>
+			</p>
+			<p> <textarea rows = '5' cols = '30' name = 'aboutme' id = 'aboutme'> Something about you here </textarea> </p>
+
+			<input type = 'button' value = 'Print this' onclick = "showInfo()" >
+		</form>
+		
+	</body>
+</html>
