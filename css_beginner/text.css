@@ -1,0 +1,27 @@
+
+body {
+	background: #9999ff;
+	font-family: arial, helvetica;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
+p {
+	font-style: italic;
+	font-size: 28px;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    line-height: 10;
+    text-align: right;
+	color: #f92672;
+	margin: 20px;
+	padding: 40px;
+}
+

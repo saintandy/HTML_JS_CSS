@@ -1,0 +1,15 @@
+
+body {
+	background: black;
+}
+p {
+	border-style: groove;
+	border-width: 3px;
+	border-left-width: 100px;
+	border-right-width: 200px;
+	border-color: #9999ff;
+	
+	text-align: center;
+	color: #f92672; 
+}
+
